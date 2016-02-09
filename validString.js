@@ -5,8 +5,6 @@ function isValidString(word){
 	regularPosOccuped=0,
 	sparePosOccuped=0;
 	
-	//console.log(letterFrec);
-	//console.log(frecOfFrec);
 	for (var property in frecOfFrec) {
 		if (frecOfFrec.hasOwnProperty(property)) {
 			if(frecOfFrec[property]>1){
